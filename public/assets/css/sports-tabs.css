@@ -1,0 +1,33 @@
+.sports-bar {
+    /* background: #fff; */
+    /* background:hsl(233, 90.5%, 63.8%); */
+    /* background: linear-gradient(90deg, skyblue, blue);
+    background-size: 160%; */
+    background: #374df5;
+    display: flex;
+    gap: 24px;
+    padding: 12px 20px;
+    /* border-bottom: 1px solid #ddd; */
+    position: fixed;
+    width: 100%;
+}
+
+.sports-bar a {
+    text-decoration: none;
+    /* color: #333; */
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.sports-bar a.active {
+    /* color: #e10600; */
+    color: #333;
+    border-bottom: 3px solid #333;
+}
+
+.sports-tabs i {
+    font-size: 16px;
+    color: #333; /* test ke liye */
+    margin-right: 6px;
+}

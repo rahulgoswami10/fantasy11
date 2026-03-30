@@ -1,0 +1,121 @@
+.league-page {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 20px;
+  padding: 20px;
+  /* margin-top: 500px; */
+}
+
+/* LEFT */
+.matches-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+}
+
+.match-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.match-time {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.team img {
+  width: 22px;
+  height: 22px;
+}
+
+.vs {
+  font-size: 12px;
+  opacity: .6;
+}
+
+.league-left {
+    margin-top: 12%;
+    /* max-height: calc(100vh - 120px);
+    overflow-y: auto; */
+}
+/* RIGHT */
+.league-right {
+  /* background: #fff; */
+  margin-top: 2%;
+  border-radius: 14px;
+}
+
+/* Player of Season */
+.season-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.season-header h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #111827;
+}
+
+.season-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.season-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.season-rank {
+    width: 20px;
+    font-weight: 700;
+}
+
+.season-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.season-info {
+    flex: 1;
+}
+
+.season-info strong {
+    display: block;
+    font-size: 14px;
+}
+
+.season-info small {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.season-rating {
+    background: #22c55e;
+    color: white;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}

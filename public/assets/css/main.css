@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    --primary-default: #374df5;
+    --primary-variant: #2c3ec4;
+    --primary-highlight: rgba(55, 77, 245, 0.15);
+    --primary-hover: hsl(233, 90.5%, 63.8%);
+}
+
+body {
+    background: #f4f6f8;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+

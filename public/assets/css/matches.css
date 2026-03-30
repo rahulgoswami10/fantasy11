@@ -1,0 +1,51 @@
+.matches {
+    padding: 100px 60px 20px;
+}
+
+/* .match-card {
+    background: #111;
+    color: #fff;
+    padding: 18px 20px;
+    border-radius: 14px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+} */
+
+.match-card {
+    background: linear-gradient(135deg, #111, #1f1f1f);
+    border-radius: 14px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 12px 25px rgba(0,0,0,.25);
+    margin: 20px;
+}
+
+
+.match-card .teams {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.match-card .meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.match-card button {
+    background: #e10600;
+    border: none;
+    padding: 8px 14px;
+    color: #fff;
+    /* border-radius: 6px; */
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
